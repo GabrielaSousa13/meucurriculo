@@ -1,0 +1,57 @@
+body{
+    font-family: 'Slabo 27px', serif;
+}
+
+
+.menu{
+    background-color: darkgrey;
+
+}
+
+.menu img{
+    width: 60px;
+    padding-top: 1px;
+    margin-left: 640px;
+}
+
+.p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 6px;
+
+}
+
+.menu > h1{
+    margin-top: 14px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.banner > h1, h2, p{
+    text-align: center;
+}
+
+
+footer{
+    background-color: darkgrey;
+    display: block;
+    padding: 30px;
+}
+
+footer > div{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+ footer li{
+     display: grid;
+     padding-left: 55px;
+ }
+
+ footer> div> ol> li:first-child{
+    font-weight: bold;
+    margin-bottom: 3px;
+ }
